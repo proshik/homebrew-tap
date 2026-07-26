@@ -4,8 +4,8 @@
 # Copy it there as `Casks/devdeck.rb`. The release workflow (.github/workflows/release.yml)
 # then rewrites the `version` and `sha256` lines on every release.
 cask "devdeck" do
-  version "0.5.1"
-  sha256 "1dd02f31abeb7b4fff3b5984ca281aab1a9bec8c4bf8ebbcbbae78db0b9433d0"
+  version "0.6.0"
+  sha256 "2478b0d0cb0f660a240acd188e03e3abbd6b9ad7e3cf552a1d75a0ef226ff797"
 
   url "https://github.com/proshik/devdeck/releases/download/v#{version}/DevDeck-#{version}.dmg"
   name "DevDeck"
