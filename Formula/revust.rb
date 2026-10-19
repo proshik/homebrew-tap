@@ -3,8 +3,8 @@ require "digest"
 class Revust < Formula
   desc "Standalone supervised review CLI with a terminal interface"
   homepage "https://github.com/proshik/revust"
-  url "https://github.com/proshik/revust/releases/download/v0.1.2/revust-0.1.2-aarch64-apple-darwin.tar.gz"
-  sha256 "78043ec8a54e988ea646ffaeae840973d74c577940e97cc85269dcbeeb05bee3"
+  url "https://github.com/proshik/revust/releases/download/v0.1.3/revust-0.1.3-aarch64-apple-darwin.tar.gz"
+  sha256 "ce4a19ad300eda32317dcae489e5a65d253200859a6f6aa397b387ca12941dd8"
   license "MIT"
 
   depends_on arch: :arm64
@@ -35,7 +35,7 @@ class Revust < Formula
   end
 
   test do
-    assert_match "revust 0.1.2", shell_output("#{bin}/revust --version")
+    assert_match "revust 0.1.3", shell_output("#{bin}/revust --version")
     (testpath/"home").mkpath
     ENV["HOME"] = (testpath/"home").to_s
     output = shell_output("#{bin}/revust config --runtime-only")
