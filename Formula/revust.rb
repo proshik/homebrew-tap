@@ -3,8 +3,8 @@ require "digest"
 class Revust < Formula
   desc "Standalone supervised review CLI with a terminal interface"
   homepage "https://github.com/proshik/revust"
-  url "https://github.com/proshik/revust/releases/download/v0.1.9/revust-0.1.9-aarch64-apple-darwin.tar.gz"
-  sha256 "a0f1c13027f092d8521f908170d9d5ae626a561edb0bf5ab275c7ca287a56680"
+  url "https://github.com/proshik/revust/releases/download/v0.1.10/revust-0.1.10-aarch64-apple-darwin.tar.gz"
+  sha256 "2f66353eae9d9fc70d237ca2c3bb6c3439bbea92699e5738aa54dd909cef3aab"
   license "MIT"
 
   depends_on arch: :arm64
